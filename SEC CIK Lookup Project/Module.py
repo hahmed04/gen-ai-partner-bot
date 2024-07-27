@@ -5,7 +5,7 @@ class EdgarData:
         self.file_url = file_url  # URL containing data
         self.company_data = {}  # Maps both company names and tickers to data
         
-        headers = {'User-Agent': 'MLT JC jonathancstr389@gmail.com'}
+        headers = {'User-Agent': 'MLT CP hahmed3001@gmail.com'}
         response = requests.get(self.file_url, headers=headers)
         
         if response.status_code == 200:  # Check if fetching data was successful
